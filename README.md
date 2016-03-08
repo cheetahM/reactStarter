@@ -1,11 +1,9 @@
 # ReduxSimpleStarter
+  Simple React app using React, Redux, Webpack and ES6
 
 ###Getting Started###
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install depdencies, then start
+Checkout this repo, install depdencies, then run npm start
 
 ```
 	> git clone https://github.com/cheetahM/reactStarter.git
