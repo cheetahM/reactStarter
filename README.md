@@ -1,13 +1,9 @@
 # ReactSimpleStarter
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-###Getting Started###
-
-There are two methods for getting started with this repo.
+Interested in learning React?
 
 ####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Checkout this repo, install dependencies, then start the process with the following:
 
 ```
 	> git clone https://github.com/cheetahM/reactStarter.git
