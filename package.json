@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "redux-simple-starter",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
@@ -11,6 +12,27 @@
   },
   "author": "",
   "license": "ISC",
+=======
+  "name": "react-redux-starter",
+  "version": "1.0.0",
+  "description": "Simple starter package for Redux with React and Babel support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.js'",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheetahM/reactStarter.git"
+  },
+  "author": "chetan M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheetahM/reactStarter/issues"
+  },
+  "homepage": "https://github.com/cheetahM/reactStarter#readme",
+>>>>>>> c6d2bcf943247e990f9e341770c37feb778adaac
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
@@ -31,7 +53,10 @@
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
+<<<<<<< HEAD
     "react-router": "^2.0.1",
+=======
+>>>>>>> c6d2bcf943247e990f9e341770c37feb778adaac
     "redux": "^3.0.4",
     "youtube-api-search": "0.0.5"
   }

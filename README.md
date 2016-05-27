@@ -1,4 +1,5 @@
 # ReduxSimpleStarter
+<<<<<<< HEAD
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
@@ -20,6 +21,17 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
 ```
+=======
+  Simple React app using React, Redux, Webpack and ES6
+
+###Getting Started###
+
+Checkout this repo, install depdencies, then run npm start
+
+```
+	> git clone https://github.com/cheetahM/reactStarter.git
+	> cd reactStarter
+>>>>>>> c6d2bcf943247e990f9e341770c37feb778adaac
 	> npm install
 	> npm start
 ```

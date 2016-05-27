@@ -11,7 +11,6 @@ const API_KEY = 'AIzaSyAtjCBe7M4rp5Qct2xMc6Hf-gw9J-NaF-g';
 class App extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       videos: [] ,
       selectedVideo: null
@@ -30,12 +29,14 @@ class App extends Component {
   render() {
     const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300);
 
-
     return (
       <div>
         <SearchBar onSearchTermChange= {videoSearch} />
         <VideoDetail video={this.state.selectedVideo}/>
-        <VideoList onVideoSelect={selectedVideo => this.setState({selectedVideo})} videos={this.state.videos}/>
+        <VideoList
+          onVideoSelect={selectedVideo => this.setState({selectedVideo})}
+          videos={this.state.videos}
+        />
       </div>
     );
   }
